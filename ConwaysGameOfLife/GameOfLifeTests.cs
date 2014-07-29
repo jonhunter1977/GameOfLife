@@ -32,6 +32,11 @@ namespace ConwaysGameOfLife
             cell.WorkOutLifeStatus();
             Assert.AreEqual(cell.CellStatus, CellStatus.Dead);
         }
+
+        public int CountNumberOfAliveCellsInCollection()
+        {
+            return _neighbouringCells.FindAll(n => n.CellStatus == CellStatus.Alive).Count;
+        }
     }
 
     [TestFixture]
@@ -61,6 +66,11 @@ namespace ConwaysGameOfLife
             cell.CountAliveNeighbours();
             cell.WorkOutLifeStatus();
             Assert.AreEqual(cell.CellStatus, CellStatus.Alive);
+        }
+
+        public int CountNumberOfAliveCellsInCollection()
+        {
+            return _neighbouringCells.FindAll(n => n.CellStatus == CellStatus.Alive).Count;
         }
     }
 
@@ -92,6 +102,11 @@ namespace ConwaysGameOfLife
             cell.WorkOutLifeStatus();
             Assert.AreEqual(cell.CellStatus, CellStatus.Alive);
         }
+
+        public int CountNumberOfAliveCellsInCollection()
+        {
+            return _neighbouringCells.FindAll(n => n.CellStatus == CellStatus.Alive).Count;
+        }
     }
 
     [TestFixture]
@@ -121,6 +136,11 @@ namespace ConwaysGameOfLife
             cell.CountAliveNeighbours();
             cell.WorkOutLifeStatus();
             Assert.AreEqual(cell.CellStatus, CellStatus.Dead);
+        }
+
+        public int CountNumberOfAliveCellsInCollection()
+        {
+            return _neighbouringCells.FindAll(n => n.CellStatus == CellStatus.Alive).Count;
         }
     }
 
@@ -152,11 +172,17 @@ namespace ConwaysGameOfLife
             cell.WorkOutLifeStatus();
             Assert.AreEqual(cell.CellStatus, CellStatus.Alive);
         }
+
+        public int CountNumberOfAliveCellsInCollection()
+        {
+            return _neighbouringCells.FindAll(n => n.CellStatus == CellStatus.Alive).Count;
+        }
     }
 
     public interface ICellCollection
     {
         List<Cell> NeighbouringCells { get;}
+        int CountNumberOfAliveCellsInCollection();
     }
 
     public enum CellStatus
@@ -189,8 +215,7 @@ namespace ConwaysGameOfLife
 
         public void CountAliveNeighbours()
         {
-            var aliveCells = _neighbours.NeighbouringCells.FindAll(n => n._cellStatus == CellStatus.Alive);
-            _noOfLiveNeighbours = aliveCells.Count;
+            _noOfLiveNeighbours = _neighbours.CountNumberOfAliveCellsInCollection();
         }
 
         public void WorkOutLifeStatus()
