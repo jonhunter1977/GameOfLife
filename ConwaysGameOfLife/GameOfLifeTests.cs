@@ -8,7 +8,7 @@ namespace ConwaysGameOfLife
     {
         private List<Cell> _neighbouringCells = new List<Cell>()
             {
-                new Cell(CellStatus.Dead),
+                new Cell(CellStatus.Alive),
                 new Cell(CellStatus.Dead),
                 new Cell(CellStatus.Dead),
                 new Cell(CellStatus.Dead),
