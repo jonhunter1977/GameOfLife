@@ -1,0 +1,7 @@
+C:\JHDev\GameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\bin\Debug\ConwaysGameOfLife.dll
+C:\JHDev\GameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\bin\Debug\ConwaysGameOfLife.pdb
+C:\JHDev\GameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\bin\Debug\nunit.framework.dll
+C:\JHDev\GameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\bin\Debug\nunit.framework.xml
+C:\JHDev\GameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\obj\Debug\ConwaysGameOfLife.csprojResolveAssemblyReference.cache
+C:\JHDev\GameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\obj\Debug\ConwaysGameOfLife.dll
+C:\JHDev\GameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\obj\Debug\ConwaysGameOfLife.pdb

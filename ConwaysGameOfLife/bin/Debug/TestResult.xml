@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\JHDev\GameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\bin\Debug\ConwaysGameOfLife.dll" total="5" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-07-29" time="13:37:09">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5477" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\JHDev\GameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\bin\Debug" machine-name="DLTGFST4Q1" user="jhunter" user-domain="AD" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\JHDev\GameOfLife\ConwaysGameOfLife\ConwaysGameOfLife\bin\Debug\ConwaysGameOfLife.dll" executed="True" result="Success" success="True" time="0.169" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="ConwaysGameOfLife" executed="True" result="Success" success="True" time="0.141" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="CellTests1" executed="True" result="Success" success="True" time="0.090" asserts="0">
+            <results>
+              <test-case name="ConwaysGameOfLife.CellTests1.A_Cell_With_One_Live_Neighbour_Dies" executed="True" result="Success" success="True" time="0.058" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="CellTests2" executed="True" result="Success" success="True" time="0.002" asserts="0">
+            <results>
+              <test-case name="ConwaysGameOfLife.CellTests2.A_Cell_With_Two_Live_Neighbours_Lives" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="CellTests3" executed="True" result="Success" success="True" time="0.016" asserts="0">
+            <results>
+              <test-case name="ConwaysGameOfLife.CellTests3.A_Cell_With_Three_Live_Neighbours_Lives" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="CellTests4" executed="True" result="Success" success="True" time="0.002" asserts="0">
+            <results>
+              <test-case name="ConwaysGameOfLife.CellTests4.A_Cell_With_Four_Live_Neighbours_Dies" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="CellTests5" executed="True" result="Success" success="True" time="0.002" asserts="0">
+            <results>
+              <test-case name="ConwaysGameOfLife.CellTests5.A_Cell_With_No_Live_Neighbours_Comes_Alive" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
